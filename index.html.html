@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>在金咖啡阿裕尼发现黄金商机！</title>
+  <style>
+    /* Base Colours */
+    :root {
+      --primary-purple: #9d1d64;
+      --accent-gold: #cda176;
+      --text-color: #333;
+      --light-gray: #f5f5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text-color);
+      background-color: var(--light-gray);
+      line-height: 1.6;
+    }
+
+    /* Hero Section with Background Image */
+    header {
+      position: relative;
+      background: url('115GCAExt.jpg') center center no-repeat;
+      background-size: cover;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+      overflow: hidden; /* Ensures overlay covers the entire header */
+    }
+    /* Overlay to maintain text visibility */
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(157, 29, 100, 0.3),
+        rgba(205, 161, 118, 0.3)
+      );
+      z-index: 1;
+    }
+    /* Positioning the text above the overlay */
+    .header-content {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    .section-title {
+      color: var(--primary-purple);
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .content {
+      font-size: 1rem;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .feature {
+      flex: 1;
+      min-width: 280px;
+      background-color: #fff;
+      border-left: 5px solid var(--accent-gold);
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      background-color: var(--accent-gold);
+      color: var(--primary-purple);
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: var(--primary-purple);
+      color: #fff;
+    }
+
+    /* Video Section Styles */
+    .video-section {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-top: 20px;
+      text-align: center;
+      font-style: italic;
+      color: #777;
+    }
+
+    /* Style for embedded video */
+    .video-section iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+    }
+
+    footer {
+      background-color: var(--primary-purple);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      .section-title { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <div class="header-content">
+      <h1>金咖啡阿裕尼</h1>
+      <p>发现黄金商机！</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Introduction -->
+    <section id="introduction">
+      <h2 class="section-title">发现黄金商机</h2>
+      <p class="content">
+        您是否准备好将您的烹饪才华提升到一个新的高度？位于115阿裕尼二道的金咖啡馆不仅是一家普通的餐饮场所，而是重新定义用餐体验的创新概念。我们致力于打造独特的多元美食体验，并建立一个以美食、现场娱乐和创新营销为核心的活力社区。
+      </p>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-choose">
+      <h2 class="section-title">为什么选择金咖啡旗下的咖啡店</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>独特的美食版图</h3>
+          <p>
+            我们精心挑选了风味各异的摊位，为阿裕尼的美食带来了多样性。告别过度饱和，开启味觉冒险之旅！
+          </p>
+        </div>
+        <div class="feature">
+          <h3>别具一格的全天餐饮</h3>
+          <p>
+           白天，您可以享用传统的咖啡、茶、吐司、巴东饭、点心和健康的越南河粉。夜幕降临，您可以在啤酒花园中品尝沙爹、泰式火锅， 本地煮炒和五香虾饼，感受不一样的体验。
+          </p>
+        </div>
+        <div class="feature">
+          <h3>为您免费搞营销</h3>
+          <p>
+           通过每周社交媒体促销活动、限时促销和有针对性的推广来提升您的品牌。对 1 公里内的居民针对性营销，并让您的业务迅速的倍增。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 白天的悠闲和夜晚的氛围 -->
+    <section id="dining-experience">
+      <h2 class="section-title">体验我们的双重氛围</h2>
+      <div class="features">
+        <!-- 白天的悠闲 -->
+        <div class="feature">
+          <h3>白天的悠闲</h3>
+          <p>
+            开始您的一天以享用传统的咖啡和奶茶、南洋吐司等等。
+          </p>
+          <div class="video-section">
+            <!-- Replace DAYTIME_VIDEO_URL with your actual video URL or embed code -->
+            <iframe 
+              src="day-vibes.mp4" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <!-- 夜晚的氛围 -->
+        <div class="feature">
+          <h3>夜晚的氛围</h3>
+          <p>
+            随着夜幕降临，我们的空间变成了热闹的啤酒花园.
+          </p>
+          <div class="video-section">
+            <!-- Replace NIGHTTIME_VIDEO_URL with your actual video URL or embed code -->
+            <iframe 
+              src="night-vibes.mp4" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 现场娱乐+优质地点 -->
+    <section id="entertainment-location">
+      <h2 class="section-title">现场娱乐+优质地点</h2>
+      <p class="content">
+        金咖啡阿裕尼不仅提供美食，还提供体验。凭借我们即将颁发的公共娱乐许可证，现场音乐、本地人才和街头艺人将提升您的品牌。此外，我们地理位置优越，靠近郁郁葱葱的绿地和健身设施，可确保顾客源源不断。      </p>
+    </section>
+
+    <!-- 金咖啡团队给与摊主全力支持 -->
+    <section id="full-support">
+      <h2 class="section-title">金咖啡团队给于摊主全程提供全力支持</h2>
+      <p class="content">
+        我们不仅仅是一个租赁空间。我们是您成功的合作伙伴，提供全力支持、合作机会以及一个以创意和文化为生的社区。我们关心租户的长期发展。
+      </p>
+    </section>
+
+    <!-- 号召行动 -->
+    <section id="cta" class="cta">
+      <p class="content" style="font-weight: bold;">
+        空间有限，需求量很大。您准备好加入这场新式咖啡店饮食氛围的革命了吗？
+      </p>
+      <a href="https://wa.me/+6588411325" target="_blank">通过 WhatsApp了解更多详情</a>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 金咖啡阿裕尼. 版权所有.
+  </footer>
+  
+</body>
+</html>
